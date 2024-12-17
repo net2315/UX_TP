@@ -1,0 +1,14 @@
+{
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Netanel",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "fakerphp/faker": "^1.24"
+  }
+}

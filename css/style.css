@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.produit {
+    display: flex;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.produit img {
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+
+.produit .details {
+    flex: 1;
+}
+
+.produit h2 {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.produit p {
+    margin: 5px 0;
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #007BFF;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+.pagination a:hover {
+    background-color: #007BFF;
+    color: #fff;
+    border-color: #0056b3;
+}
+
+.pagination a.active {
+    font-weight: bold;
+    background-color: #007BFF;
+    color: #fff;
+    border-color: #0056b3;
+}
